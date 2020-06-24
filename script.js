@@ -61,8 +61,8 @@ console.log(result)
 
 // TASK6
 let login = prompt("Введите логин")
-let pass = Number(prompt("Введите пароль"))
-if (login === 'ivan' && pass === 333 || login === 'ssss' && pass === 666 || login === 'gibs' && pass === 0000) {
+let pass = (prompt("Введите пароль"))
+if (login === 'ivan' && pass === "333" || login === 'ssss' && pass === "666" || login === 'gibs' && pass === "0000") {
     console.log('Добро пожаловать!')
 } else {
     console.log('Пользователь не найден')
